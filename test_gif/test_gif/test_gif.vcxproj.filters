@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gif">
+      <UniqueIdentifier>{a3426e42-f2b0-4334-ae5a-e5f1a860d832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gif\darray">
+      <UniqueIdentifier>{b8803f90-d864-4a6e-9ab8-69f8c1215dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gif\lzw">
+      <UniqueIdentifier>{e72fe6e1-fbae-420d-a8a5-018e3c09b8d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gif\darray\darray.c">
+      <Filter>gif\darray</Filter>
+    </ClCompile>
+    <ClCompile Include="gif\lzw\lzw.c">
+      <Filter>gif\lzw</Filter>
+    </ClCompile>
+    <ClCompile Include="gif\lzw\lzw_bits.c">
+      <Filter>gif\lzw</Filter>
+    </ClCompile>
+    <ClCompile Include="gif\lzw\lzw_table.c">
+      <Filter>gif\lzw</Filter>
+    </ClCompile>
+    <ClCompile Include="gif\gif_reader.c">
+      <Filter>gif</Filter>
+    </ClCompile>
+    <ClCompile Include="gif\gif_writer.c">
+      <Filter>gif</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gif\darray\darray.h">
+      <Filter>gif\darray</Filter>
+    </ClInclude>
+    <ClInclude Include="gif\lzw\lzw.h">
+      <Filter>gif\lzw</Filter>
+    </ClInclude>
+    <ClInclude Include="gif\lzw\lzw_bits.h">
+      <Filter>gif\lzw</Filter>
+    </ClInclude>
+    <ClInclude Include="gif\lzw\lzw_table.h">
+      <Filter>gif\lzw</Filter>
+    </ClInclude>
+    <ClInclude Include="gif\gif.h">
+      <Filter>gif</Filter>
+    </ClInclude>
+    <ClInclude Include="gif\sized_types.h">
+      <Filter>gif</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
